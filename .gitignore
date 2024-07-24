@@ -1,1 +1,30 @@
+# Ignore Docker build artifacts
+*.log
+*.tmp
+
+# Ignore local development files
+.env
+.env.local
+.env.*.local
+
+# Ignore Docker volumes
+docker-volumes/
+
+# Ignore any generated or build directories
+build/
+dist/
+
+# Node.js specific ignores (if applicable)
 node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
